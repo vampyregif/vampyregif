@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lizandra Vidal Portfolio - Directory Map</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="elevator-nav">
+  <div class="elevator-display">
+    <div class="display-label">Level</div>
+    <span id="current-floor-num">G</span>
+  </div>
+  <div class="elevator-shaft">
+    <div class="shaft-line"></div>
+    <div class="elevator-buttons">
+      <button class="btn-elevator-line active" data-floor="G" data-display="G" data-wing="Great Hall" data-floor-name="Ground: Gallery Directory">
+        <span class="line-notch"></span>
+        <span class="floor-label">G</span>
+      </button>
+      <button class="btn-elevator-line" data-floor="1" data-display="F1" data-wing="West Wing" data-floor-name="Floor 1: Web Applications">
+        <span class="line-notch"></span>
+        <span class="floor-label">01</span>
+      </button>
+      <button class="btn-elevator-line" data-floor="2" data-display="F2" data-wing="East Wing" data-floor-name="Floor 2: VFX Labs">
+        <span class="line-notch"></span>
+        <span class="floor-label">02</span>
+      </button>
+      <button class="btn-elevator-line" data-floor="3" data-display="F3" data-wing="Archives" data-floor-name="Floor 3: Vault & Archives">
+        <span class="line-notch"></span>
+        <span class="floor-label">03</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="corner-widget" id="ground-directory-widget">
+  <div class="map-col">
+    <div class="map-header">
+      <span>Museum Directory Map</span>
+      <span id="wing-indicator">Great Hall</span>
+    </div>
+
+    <div class="paper-map-viewport">
+      <svg class="brochure-svg" viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg">
+        <line x1="210" y1="10" x2="210" y2="170" class="map-axis-line" stroke-dasharray="4,4"/>
+        <line x1="10" y1="90" x2="410" y2="90" class="map-axis-line" stroke-dasharray="4,4"/>
+
+        <circle cx="210" cy="90" r="3" fill="var(--amber-accent)"/>
+
+        <g class="brochure-room active" id="room-1" data-title="Great Hall" data-desc="3D Gothic Environments & Shaders">
+          <rect class="room-wall" x="15" y="12" width="180" height="68" rx="2"/>
+          <line x1="165" y1="80" x2="195" y2="80" class="doorway-gap"/>
+          <text x="30" y="32" class="room-code">G</text>
+          <text x="30" y="52" class="room-title">Great Hall</text>
+          <line x1="165" y1="22" x2="185" y2="22" class="accent-tick"/>
+        </g>
+
+        <g class="brochure-room" id="room-2" data-title="East Wing" data-desc="Real-time WebGL VFX & Volumetric Light">
+          <rect class="room-wall" x="225" y="12" width="180" height="68" rx="2"/>
+          <line x1="225" y1="80" x2="255" y2="80" class="doorway-gap"/>
+          <text x="240" y="32" class="room-code">02</text>
+          <text x="240" y="52" class="room-title">East Wing</text>
+          <line x1="375" y1="22" x2="395" y2="22" class="accent-tick"/>
+        </g>
+
+        <g class="brochure-room" id="room-3" data-title="West Wing" data-desc="Interactive Web Applications & Dashboards">
+          <rect class="room-wall" x="15" y="100" width="180" height="68" rx="2"/>
+          <line x1="165" y1="100" x2="195" y2="100" class="doorway-gap"/>
+          <text x="30" y="120" class="room-code">01</text>
+          <text x="30" y="140" class="room-title">West Wing</text>
+          <line x1="165" y1="158" x2="185" y2="158" class="accent-tick"/>
+        </g>
+
+        <g class="brochure-room" id="room-4" data-title="Archives" data-desc="UI/UX Design Systems & Documentation">
+          <rect class="room-wall" x="225" y="100" width="180" height="68" rx="2"/>
+          <line x1="225" y1="100" x2="255" y2="100" class="doorway-gap"/>
+          <text x="240" y="120" class="room-code">03</text>
+          <text x="240" y="140" class="room-title">Archives</text>
+          <line x1="375" y1="158" x2="395" y2="158" class="accent-tick"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="room-desc-footer" id="room-desc-footer">
+      <strong>Great Hall:</strong> 3D Gothic Environments & Shaders
+    </div>
+  </div>
+
+  <div class="profile-col">
+    <div class="profile-header">Lizandra Vidal</div>
+    <div class="profile-body">
+      <div class="img-me-container">
+        <img src="./image_470cdb.jpg" alt="Lizandra Vidal" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <div class="img-me-placeholder" style="display:none;">PROFILE PHOTO</div>
+      </div>
+      <div class="about-me-section">
+        <div class="about-me-title">About Me</div>
+        <p class="about-me-text">
+          Interactive Developer & 3D Web Specialist focused on immersive WebGL environments, GLSL shaders, and architectural digital experiences.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="exhibit-modal hidden" id="exhibit-modal">
+  <div class="exhibit-header">
+    <div class="exhibit-badges">
+      <span class="badge-floor" id="exhibit-badge-floor">FLOOR 02</span>
+      <span class="badge-wing" id="exhibit-badge-wing">EAST WING</span>
+    </div>
+
+    <div class="carousel-nav-tabs" id="carousel-slide-tabs">
+    </div>
+  </div>
+
+  <div class="carousel-stage">
+    <div class="carousel-track" id="carousel-track">
+    </div>
+
+    <button class="carousel-arrow prev" id="carousel-btn-prev" aria-label="Previous Slide">&lsaquo;</button>
+    <button class="carousel-arrow next" id="carousel-btn-next" aria-label="Next Slide">&rsaquo;</button>
+  </div>
+
+  <div class="exhibit-body">
+    <h2 class="project-title" id="project-title">Volumetric Light & Ray Marching</h2>
+    <div class="project-category" id="project-category">REAL-TIME WEBGL SHADER LAB</div>
+    <p class="project-description" id="project-description">
+      Custom GPU particle system simulating atmospheric fog density, dynamic light shafts, and interactive camera depth-of-field in Three.js.
+    </p>
+
+    <div class="tech-stack-section">
+      <div class="tech-stack-label">TECH STACK</div>
+      <div class="tech-tags" id="project-tech-tags">
+      </div>
+    </div>
+
+    <div class="exhibit-actions">
+      <a href="#demo" class="btn-paper btn-paper-primary">View Demo</a>
+      <a href="#code" class="btn-paper btn-paper-secondary">Source Code</a>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
