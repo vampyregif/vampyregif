@@ -1,6 +1,5 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/',
+    base: '/', // Change from '/vampyregif/' to '/' for custom domains
 });
