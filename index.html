@@ -50,7 +50,7 @@
 
         <circle cx="210" cy="90" r="3" fill="var(--amber-accent)"/>
 
-        <g class="brochure-room active" id="room-1" data-title="Great Hall" data-desc="3D Gothic Environments & Shaders">
+        <g class="brochure-room active" id="room-1" data-title="Great Hall" data-desc="Directory to Access All Exhibits">
           <rect class="room-wall" x="15" y="12" width="180" height="68" rx="2"/>
           <line x1="165" y1="80" x2="195" y2="80" class="doorway-gap"/>
           <text x="30" y="32" class="room-code">G</text>
@@ -93,13 +93,16 @@
     <div class="profile-header">Lizandra Vidal</div>
     <div class="profile-body">
       <div class="img-me-container">
-        <img src="./public/image_470cdb.jpg" alt="Lizandra Vidal" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <img src="/lizandraVpfp.webp" alt="Lizandra Vidal" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
         <div class="img-me-placeholder" style="display:none;">PROFILE PHOTO</div>
       </div>
       <div class="about-me-section">
         <div class="about-me-title">About Me</div>
         <p class="about-me-text">
-          Interactive Developer & 3D Web Specialist focused on immersive WebGL environments, GLSL shaders, and architectural digital experiences.
+          Hello! My name is Lizandra V. I'm a high school senior at Brien McMahon High School in Norwalk. I'm planning to major in Computer Science and specialize in Interactive Design.
+          Some of my favorite hobbies include programming, fiber arts, visual art and writing. After refusing programming for years and messing around with multiple medias,
+          I decided to pursue a more technical aspect of myself; understanding programming has helped my life and my community in so many ways. In the future, I plan to pursue a career
+          in Frontend Design or UI/UX Design where I can happily mix my two talents.
         </p>
       </div>
     </div>
@@ -109,8 +112,8 @@
 <div class="exhibit-modal hidden" id="exhibit-modal">
   <div class="exhibit-header">
     <div class="exhibit-badges">
-      <span class="badge-floor" id="exhibit-badge-floor">FLOOR 02</span>
-      <span class="badge-wing" id="exhibit-badge-wing">EAST WING</span>
+      <span class="badge-floor" id="exhibit-badge-floor"></span>
+      <span class="badge-wing" id="exhibit-badge-wing"></span>
     </div>
 
     <div class="carousel-nav-tabs" id="carousel-slide-tabs">
@@ -119,6 +122,7 @@
 
   <div class="carousel-stage">
     <div class="carousel-track" id="carousel-track">
+      <!-- Injected by JavaScript -->
     </div>
 
     <button class="carousel-arrow prev" id="carousel-btn-prev" aria-label="Previous Slide">&lsaquo;</button>
@@ -126,21 +130,20 @@
   </div>
 
   <div class="exhibit-body">
-    <h2 class="project-title" id="project-title">Volumetric Light & Ray Marching</h2>
-    <div class="project-category" id="project-category">REAL-TIME WEBGL SHADER LAB</div>
-    <p class="project-description" id="project-description">
-      Custom GPU particle system simulating atmospheric fog density, dynamic light shafts, and interactive camera depth-of-field in Three.js.
-    </p>
+    <h2 class="project-title" id="project-title"></h2>
+    <div class="project-category" id="project-category"></div>
+    <p class="project-description" id="project-description"></p>
 
     <div class="tech-stack-section">
       <div class="tech-stack-label">TECH STACK</div>
       <div class="tech-tags" id="project-tech-tags">
+        <!-- Injected by JavaScript -->
       </div>
     </div>
 
     <div class="exhibit-actions">
-      <a href="#demo" class="btn-paper btn-paper-primary">View Demo</a>
-      <a href="#code" class="btn-paper btn-paper-secondary">Source Code</a>
+      <!-- Updated Anchor Tag -->
+      <a href="#" id="github-link" class="btn-paper btn-paper-secondary" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
     </div>
   </div>
 </div>
