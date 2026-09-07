@@ -41,23 +41,23 @@ const floorProjectsData = {
     '2': {
         floorBadge: 'FLOOR 02',
         wingName: 'EAST WING',
-        title: 'Volumetric Light & Ray Marching',
-        category: 'REAL-TIME WEBGL SHADER LAB',
-        description: 'Custom GPU particle system simulating atmospheric fog density, dynamic light shafts, and interactive camera depth-of-field in Three.js.',
-        techStack: ['WebGL', 'GLSL Shaders', 'Three.js', 'Mathematics'],
+        title: 'TBD',
+        category: 'TBD',
+        description: 'TBD',
+        techStack: ['None Yet!'],
         slides: [
             {
-                title: 'Volumetric Light Rays Stage',
+                title: 'TBD',
                 bg: 'linear-gradient(135deg, #1a0c02 0%, #ff7700 100%)',
                 img: `${baseUrl}{1374FDDD-C45C-48DC-89CB-0A1EBD9EF7DB}.png`
             },
             {
-                title: 'GPU Particles & Atmospheric Fog',
+                title: 'TBD',
                 bg: 'linear-gradient(135deg, #2a0800 0%, #b33600 100%)',
                 img: ''
             },
             {
-                title: 'Custom Shader Pass & Ray Marching',
+                title: 'TBD',
                 bg: 'linear-gradient(135deg, #1f0500 0%, #3d1c06 100%)',
                 img: ''
             }
@@ -65,19 +65,19 @@ const floorProjectsData = {
     },
     '3': {
         floorBadge: 'FLOOR 03',
-        wingName: 'ARCHIVES',
-        title: 'Vault & Design System Documentation',
-        category: 'UI/UX DESIGN & ARCHIVAL DOCUMENTATION',
-        description: 'Comprehensive design tokens, typography scales, interactive components, and technical specifications for museum systems.',
-        techStack: ['Figma', 'Design Systems', 'CSS Architecture', 'SVG Animation'],
+        wingName: 'TBD',
+        title: 'TBD',
+        category: 'TBD',
+        description: 'TBD',
+        techStack: ['None Yet!'],
         slides: [
             {
-                title: 'Gothic Design System Tokens',
+                title: 'TBD',
                 bg: 'linear-gradient(135deg, #312e81 0%, #4338ca 100%)',
                 img: ''
             },
             {
-                title: 'Interactive Component Library',
+                title: 'TBD',
                 bg: 'linear-gradient(135deg, #1e293b 0%, #334155 100%)',
                 img: ''
             }
