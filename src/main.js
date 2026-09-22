@@ -41,45 +41,45 @@ const floorProjectsData = {
     '2': {
         floorBadge: 'FLOOR 02',
         wingName: 'EAST WING',
-        title: 'TBD',
-        category: 'TBD',
-        description: 'TBD',
-        techStack: ['None Yet!'],
+        title: 'IBVA Artist Project',
+        category: 'Art & Computations',
+        description: 'For my IB Visual Arts project, I wanted to step completely out of my comfort zone by bridging the gap between tactile art and digital computation. I combined physical mediums like heavy impasto paint and yarn with a Raspberry Pi to create an interactive 3D sculpture. Navigating the Raspberry Pi was a steep learning curve for me, but figuring out how to successfully merge raw technology with organic fibers and paint was incredibly rewarding. Throughout the exhibition process, I learned how to actively listen to critiques from different kinds of people—both artists and tech-minded peers—and properly implement their feedback to refine the final piece.',
+        techStack: ['Raspberry Pi', "Impasto Paint", "Yarn/Fibers", "3D Sculpture", "Photography"],
         slides: [
             {
-                title: 'TBD',
+                title: 'Conceptualizing the Tactile: Impasto & Fibers',
                 bg: 'linear-gradient(135deg, #1a0c02 0%, #ff7700 100%)',
-                img: `${baseUrl}{1374FDDD-C45C-48DC-89CB-0A1EBD9EF7DB}.png`
+                img: '/ibva_concept_textures.png' // TIP: Put a close-up photo of your paint/yarn textures here
             },
             {
-                title: 'TBD',
+                title: 'The Tech Challenge: Wiring the Raspberry Pi',
                 bg: 'linear-gradient(135deg, #2a0800 0%, #b33600 100%)',
-                img: ''
+                img: '/ibva_raspberry_pi_process.png' // TIP: Put a behind-the-scenes shot of your tech/wiring setup here
             },
             {
-                title: 'TBD',
+                title: 'Final Exhibition & Feedback Integration',
                 bg: 'linear-gradient(135deg, #1f0500 0%, #3d1c06 100%)',
-                img: ''
+                img: '/ibva_final_sculpture.png' // TIP: Put a photo of the final installed piece or you presenting it
             }
         ]
     },
     '3': {
         floorBadge: 'FLOOR 03',
-        wingName: 'TBD',
-        title: 'TBD',
-        category: 'TBD',
-        description: 'TBD',
-        techStack: ['None Yet!'],
+        wingName: 'NORTH WING',
+        title: 'Graphic Design for Local Businesses',
+        category: 'Prospective Local Projects',
+        description: 'Working with local businesses completely shifted my perspective from creating art for myself to designing for a community. Using Canva and 2D illustration, I collaborated with local owners to help visually communicate their brand identities. The biggest area of growth for me here was mastering client communication. I had to learn foundational graphic design practices—like how to translate a client\'s vague ideas into a cohesive visual pitch. Most importantly, I learned how to separate my ego from my art, receiving constructive feedback from non-designers and implementing their changes properly while still maintaining a professional aesthetic.',
+        techStack: ['Canva', "Graphic Design", "Client Communication", "2D Illustration"],
         slides: [
             {
-                title: 'TBD',
+                title: 'Initial Concepts & Client Communication',
                 bg: 'linear-gradient(135deg, #312e81 0%, #4338ca 100%)',
-                img: ''
+                img: '/local_biz_comms.png' // TIP: Show early sketches, mood boards, or a side-by-side of Canva drafts
             },
             {
-                title: 'TBD',
+                title: 'Iterative Design & Implementing Feedback',
                 bg: 'linear-gradient(135deg, #1e293b 0%, #334155 100%)',
-                img: ''
+                img: '/local_biz_final.png' // TIP: Show the final delivered graphics, maybe mocked up on a business card or storefront
             }
         ]
     }
